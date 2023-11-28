@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include massmail *.css
+recursive-include massmail *.csv
+recursive-include massmail *.html
+recursive-include massmail *.ico
+recursive-include massmail *.js
+recursive-include massmail *.json
+recursive-include massmail *.md
+recursive-include massmail *.png
+recursive-include massmail *.py
+recursive-include massmail *.svg
+recursive-include massmail *.txt
+recursive-exclude massmail *.pyc
